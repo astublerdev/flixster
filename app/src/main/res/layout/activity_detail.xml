@@ -9,9 +9,14 @@
     android:orientation="vertical"
     >
 
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="match_parent"
+        android:layout_width="426dp"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         tools:text="It Chapter Two" />
